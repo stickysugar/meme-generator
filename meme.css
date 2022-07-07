@@ -1,0 +1,70 @@
+h1 {
+    color: black;
+    text-align: center;
+    font-family: helvetica;
+}
+
+form {
+    background-color: rgb(247, 243, 237);
+    padding: 10px;
+    font-family: helvetica;
+}
+
+.meme label {
+    display: block;
+    width: 100%;
+    margin: 5px;
+}
+
+.meme input {
+    width: 65%;
+    margin: 5px;
+}
+
+#submit {
+    width: 25%;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: helvetica;
+    font-size: 200%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.3s;
+    backdrop-filter: blur(1px);
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.memeClass {
+    background-size: 100% 100%;
+    background-position: center;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.memeClass p {
+    font-size: 75px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 2px 0 #000, -1px 0 0 #000;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+}
+
+
